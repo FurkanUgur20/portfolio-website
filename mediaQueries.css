@@ -1,0 +1,128 @@
+@media  (max-width: 426px){
+    
+    .hero{
+        display: block;
+        text-align: center;
+        height: 50vh;
+    }
+
+    .hero-img{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        display: flex;
+        justify-content: center;    
+    }
+ 
+    .hero-img img{
+        width: 200px;
+        height: 200px;
+        
+    }
+
+    .hero-title{
+        top: 10px;
+    }
+
+    .hero-title h1{
+        font-size: 1.5rem;
+    }
+
+    .hero-title h3{
+        font-size: 0.75rem;
+    }
+
+    .contact-title h2{
+        font-size: 1rem;
+    }
+
+    .btn{
+        font-size: smaller;
+        font-weight: 300;
+        padding: 0.5rem;
+        width: 5rem;
+    }
+
+    .footer h4 {
+        font-size: small;
+    }
+
+    .skill{
+       width: 60%;
+       margin: auto;
+    }
+
+    .contact-text{
+        font-size: 0.75rem;
+    }
+}
+
+
+
+@media (min-width:427px) and (max-width:769px) {
+    
+    .hero{
+        display: block;
+        text-align: center;
+        height: 95vh;
+    }
+
+    .hero-img{
+        width: 450px;
+        height: 450px;
+        margin: auto;
+        display: flex;
+        justify-content: center;    
+    }
+ 
+    .hero-img img{
+        width: 450px;
+        height: 450px;
+        
+    }
+
+    .hero-title{
+        top: 10px;
+    }
+
+    .hero-title h1{
+        font-size: 2.5rem;
+    }
+
+    .hero-title h3{
+        font-size: 1.25rem;
+    }  
+
+    .contact-title h2{
+        font-size: 1.25rem;
+    }
+
+    .btn{
+        font-size: large;
+        font-weight: 500;
+        padding: 0.75rem;
+        width: 7.5rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width :1024px) {
+  
+    .hero-img{
+        width: 450px;
+        height: 450px;
+          
+    }
+ 
+    .hero-img img{
+        width: 450px;
+        height: 450px;
+        
+    }
+
+    .hero-title{
+        top: 150px;
+    }
+
+
+ 
+}

@@ -1,0 +1,189 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    background: linear-gradient(-45deg, #3C4048, #B2B2B2, #EAEAEA);
+    background-size: 180% 180%;
+    animation: gradient 18s ease infinite;
+    margin-bottom: 40px;
+    
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-title{
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+
+.hero-title h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.hero-title h3{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.developer{
+    color:#00ABB3;
+    text-decoration: underline;
+}
+
+#about{
+    margin-bottom: 40px;
+}
+
+.about{
+    display: block;
+    text-align: center;
+}
+
+
+.about-img img{
+    height: 180px;
+    width: 180px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    
+}
+
+.about-title h2{
+    color: #00ABB3;
+    margin-bottom: 20px;
+}
+
+.about-title p{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.html{
+    display: flex;
+    justify-content: center;
+    gap: 4vh ;
+    margin-bottom: 5px;
+}
+
+.skill{
+    width: 50%;
+    margin: auto;
+}
+
+.skill-title{
+    margin-bottom: 10px;
+    color: #00ABB3;
+    margin-bottom: 10px;
+}
+
+.css{
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+    margin-bottom: 5px;
+}
+
+.csharp{
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+    margin-bottom: 5px;
+}
+
+.python{
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+}
+
+.star{
+    color: #3C4048;
+}
+
+.checked{
+    color: #00ABB3;
+}
+
+#contact {
+    margin-bottom: 40px;
+}
+
+.contact-title{
+    text-align: center;
+}
+
+.contact-title h2{
+    font-weight: 500;
+    font-size: 2rem;
+    color: #00ABB3;
+    margin-bottom: 10px;
+}
+
+.contact-flex{
+    text-align: center;
+}
+
+.btn{
+    font-weight: 600;
+    font-size: large;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 2rem;
+    background: rgba(255 , 255, 255, .1);
+    margin-bottom: 10px;
+    
+}
+
+.btn{
+    background-color: #fff;
+    color: #00ABB3;
+    border-color: #00ABB3;
+}
+
+.btn:hover{
+    background-color: #00ABB3;  
+    color: #fff;
+}
+
+.footer{
+    background: linear-gradient(-45deg, #3C4048, #B2B2B2, #EAEAEA);
+    background-size: 180% 180%;
+    animation: gradient 18s ease infinite;
+    display: flex;
+    justify-content: center;
+    color: #000 ;
+}
+
+
